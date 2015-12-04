@@ -1,0 +1,121 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  display: inline-block;
+}
+
+.panel {
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 25%;
+}
+
+body > div > main > div.panel.panel-default > div.panel-heading {
+  background-color: rgba(0, 0, 0, 0);
+  height: auto;
+  padding: 0 0 0 30%;
+}
+
+#menuItems {
+  padding-left: 15%;
+}
+#menuItems li {
+  padding-right: 7%;
+}
+
+a:hover {
+  background color: none;
+  text-decoration: none;
+}
+
+body {
+  background-image: url('../images/BeachBaby.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Merriweather', serif;
+}
+
+.text-muted {
+  color: white;
+  text-shadow: 1px 1px black;
+  opacity: .6;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  width: 100%;
+}
+/* Custom page header */
+.header {
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  width: 100%;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.footer {
+  padding-top: 19px;
+  color: white;
+  border-top: 1px solid #e5e5e5;
+}
+
+option {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+select:focus {
+  outline: 0;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.pageHeadline {
+  text-align: center;
+  padding: 1em;
+}
+
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+.btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+@media all and (max-width: 600px) {
+
+  .jumbotron {
+    min-width: 100%;
+  }
+
+  .text-muted {
+    font-size: smaller;
+  }

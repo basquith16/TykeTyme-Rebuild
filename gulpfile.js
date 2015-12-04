@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
+var gulpLoadPlugins =('gulp-load-plugins');
 var source = require('vinyl-source-stream');
 var browserify = require('browserify');
 var watchify = require('watchify');
@@ -7,6 +8,8 @@ var reactify = require('reactify');
 var react = require('react-dom');
 var router = require('react-router');
 var ghPages = require('gh-pages');
+var browserSync = require('browser-sync');
+var less = require('gulp-less');
 
 gulp.task('default', function () {
   var bundler = watchify(browserify({
