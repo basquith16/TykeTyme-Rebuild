@@ -10,7 +10,7 @@ ul {
 }
 
 main {
-  display: inline-block;
+  display: inline-flex;
 }
 
 .panel {
@@ -102,7 +102,10 @@ select:focus {
 
 .jumbotron {
   background-color: rgba(0, 0, 0, 0);
-
+  border: 2px solid red;
+  margin: 25% 0 0 5%;
+  height: 100%;
+  width: 100%;
 }
 
 .btn {

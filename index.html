@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
     <link href="styles/main.css" rel="stylesheet">
+    <link href='schedule/fullcalendar.css' rel='stylesheet' />
+    <link href='schedule/fullcalendar.print.css' rel='stylesheet' media='print' />
+
   </head>
   <body>
     <div class="container">
@@ -42,10 +45,18 @@
     </ul>
   </div>
 </div>
-      <div class="jumbotron">
-
+      <div class="jumbotron" id="jumbotronTop">
       </div>
     </main>
+    <script type="text/jsx">
+    var React = require('react');
+    var Router = require('react-router');
+    var Link = Router.Link;
+    var Navigation = require('react-router');
+
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src='schedule/lib/moment.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.5.0/fullcalendar.min.js'></script>
   </body>
 </html>
