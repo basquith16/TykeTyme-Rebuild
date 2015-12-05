@@ -1,4 +1,4 @@
 var React = require('react');
 var Routes = require('./routes');
 
-React.render(Routes, document.getElementById('jumbotronTop'));
+React.render(Routes, document.body);
