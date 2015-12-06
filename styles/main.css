@@ -122,8 +122,31 @@ select:focus {
   .text-muted {
     font-size: smaller;
   }
+}
 
 //calendar css
+#external-events h4 {
+  font-size: 16px;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+#external-events .fc-event {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+#external-events p {
+  margin: 1.5em 0;
+  font-size: 11px;
+  color: #666;
+}
+
+#external-events p input {
+  margin: 0;
+  vertical-align: middle;
+}
+
 
 .fc-day.fc-today.fc-state-highlight {
   background-color: rgba(69, 133, 181, .3);
@@ -140,9 +163,8 @@ text-shadow: 1px 1px black;
 }
 
 #wrap {
-  display: flex;
-  flex-direction: row;
-  margin: 4% 0 0 1.2%;
+  display: inline-flex;
+  margin: 1% 0 10% 1.2%;
 }
 
 .fc-content {
@@ -151,13 +173,12 @@ text-shadow: 1px 1px black;
 
 #calendar {
   margin-left: 50px;
-  width: 108%;
+  width: 80%;
 }
 
 #external-events {
   display: block
-  font-family: Bodoni;
-  // float: left;
+  float: left;
   width: 160px;
   padding: 0 10px;
   border: 1px solid #ccc;
@@ -182,21 +203,20 @@ text-shadow: 1px 1px black;
 .fc-center h2 {
   color: rgba(232, 165, 112, .8);
   font-size: 40px;
-  font-family: Bodoni;
   font-weight: bold;
   margin: -15px 0 0 -40px;
 }
 
-#dragList {
-  list-style: none;
-  margin-left: -15px;
-}
-
 #external-events .fc-event {
-  margin: 10px 0 0 -15px;
+  width: 80%;
+  margin: 5% 0 0 0;
   cursor: pointer;
   font-size: 14px;
   background: rgba(232, 165, 112, .6);
+}
+
+#external-events > div {
+  padding-left: 10%
 }
 
 #external-events p {
@@ -208,14 +228,6 @@ text-shadow: 1px 1px black;
 #external-events p input {
   margin: 0;
   vertical-align: middle;
-}
-
-#main {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  float: right;
-  width: 900px;
 }
 
 .fc-button-group, .fc-left {

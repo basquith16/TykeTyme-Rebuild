@@ -8,7 +8,7 @@ module.exports = React.createClass({
       return (
  <div className="calBody">
         <div id='wrap'>
-          <div idName='external-events'>
+          <div id='external-events'>
             <div className='fc-event'>My Event 1</div>
             <div className='fc-event'>My Event 2</div>
             <div className='fc-event'>My Event 3</div>
@@ -16,11 +16,10 @@ module.exports = React.createClass({
             <div className='fc-event'>My Event 5</div>
             <p>
               <input type='checkbox' id='drop-remove'/>
-              <label for='drop-remove'>remove after drop</label>
+              <label htmlfor='drop-remove'>remove after drop</label>
             </p>
           </div>
           <div id='calendar'></div>
-          <div></div>
         </div>
       </div>
     )

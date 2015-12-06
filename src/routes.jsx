@@ -18,9 +18,9 @@ module.exports = (
       <Route path="1" component={Sched} />
       <Route path="2" component={Crafts} />
       <Route path="3" component={Activities} />
-      <Route path="3" component={Meals} />
-      <Route path="3" component={Map} />
-      <Route path="3" component={Contact} />
+      <Route path="4" component={Meals} />
+      <Route path="5" component={Map} />
+      <Route path="6" component={Contact} />
   </Route>
   </Router>
 )
