@@ -13,7 +13,8 @@ module.exports = React.createClass({
           <div className="header">
             <ul className="nav nav-pills pull-center" id="menuItems">
               <li>
-                <Link to="/">Home</Link></li>
+                <Link to="/">Home</Link>
+              </li>
               <li>
                 <Link to="1">Schedule</Link>
               </li>
