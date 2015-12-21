@@ -35,7 +35,7 @@ module.exports = React.createClass({
               </li>
             </ul>
           </div>
-          <main>
+          <main id="main">
           </main>
         </div>
         {this.props.children}
